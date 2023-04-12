@@ -1,0 +1,38 @@
+/* UI */
+$navbar: 4rem;
+$sidebar: 8rem;
+$toolbar: 5rem;
+$footer: 5rem;
+
+// Theme
+$tp: var(--theme-primary); // Text, Main Elements
+$ts: var(--theme-secondary); // Headers, Special Backgrounds, Other Text
+$tc: var(--theme-contrast); // Backgrounds
+$ta: var(--theme-accent); // Active
+
+// Colors
+$color-primary: var(--theme-color-quaternary);
+$color-secondary: var(--theme-color-primary);
+$color-info: #00acc1;
+$color-success: #4caf50;
+$color-warning: #ff9800;
+$color-danger: #f44336;
+$color-rose: #e91e63;
+$color-grey: rgba(146, 127, 127, 0.2);
+
+/* UI */
+$navbar: var(--navbar);
+$sidebar: var(--sidebar);
+$sidebar-closed: var(--sidebar-closed);
+$toolbar: var(--toolbar);
+$toolbar-closed: var(--toolbar-closed);
+$footer: var(--footer);
+
+// Base Styles
+$font-family: "Suisse Int'l", "Suisse Screen", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+$font-main: "Suisse Int'l", $font-family;
+$font-screen: "Suisse Screen", $font-family;
+$font-condensed: "Suisse Int'l Condensed", $font-family;
+$font-serif: "Suisse Works", $font-family;
+$font-console: "Suisse Int'l Mono", $font-family;

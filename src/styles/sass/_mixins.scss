@@ -1,0 +1,22 @@
+@import "@sass/variables";
+
+@mixin center($direction: column) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin mobile-hidden {
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+}
+
+@mixin shadow {
+    box-shadow: 0.3rem 0.7rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+@mixin shadow-modern {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

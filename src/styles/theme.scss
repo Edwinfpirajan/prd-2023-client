@@ -1,0 +1,32 @@
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgba($tc);
+    font-weight: 500;
+    
+    padding: 0.5rem;
+    
+    // border-radius: 0.25rem;
+    
+    background-color: rgb($tp);
+    
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: rgb($ts);
+        color: rgb($tp);
+    }
+}
+
+a {
+    font-style: italic;
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+
+input {
+    padding: 0.5rem 0;
+}

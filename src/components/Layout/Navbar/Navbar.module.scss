@@ -1,0 +1,46 @@
+.navbar {
+    position: fixed 0 undefined undefined 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 1rem;
+
+    width: 100%;
+    height: $navbar;
+
+    background-color: rgba($tc, 0.75);
+
+    backdrop-filter: saturate(2) blur(0.5rem);
+
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.06);
+
+    z-index: 16;
+
+    & > .title {
+        font-size: 2rem;
+        font-weight: 200;
+    }
+
+    & > .links {
+        & > a {
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: rgb($tc);
+
+            padding: 0.5rem;
+            
+            background-color: rgb($tp);
+
+            &:hover {
+                color: rgb($tp);
+                background-color: rgb($ts);
+            }
+
+            &:not(:last-child) {
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}

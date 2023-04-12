@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Suisse Works';
+    src: url('@styles/fonts/Suisse Works/SuisseWorks-Bold.woff2') format('woff2'),
+        url('@styles/fonts/Suisse Works/SuisseWorks-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse Works';
+    src: url('@styles/fonts/Suisse Works/SuisseWorks-BoldItalic.woff2') format('woff2'),
+        url('@styles/fonts/Suisse Works/SuisseWorks-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse Works';
+    src: url('@styles/fonts/Suisse Works/SuisseWorks-Book.woff2') format('woff2'),
+        url('@styles/fonts/Suisse Works/SuisseWorks-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse Works';
+    src: url('@styles/fonts/Suisse Works/SuisseWorks-BookItalic.woff2') format('woff2'),
+        url('@styles/fonts/Suisse Works/SuisseWorks-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse Works';
+    src: url('@styles/fonts/Suisse Works/SuisseWorks-Medium.woff2') format('woff2'),
+        url('@styles/fonts/Suisse Works/SuisseWorks-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse Works';
+    src: url('@styles/fonts/Suisse Works/SuisseWorks-MediumItalic.woff2') format('woff2'),
+        url('@styles/fonts/Suisse Works/SuisseWorks-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse Works';
+    src: url('@styles/fonts/Suisse Works/SuisseWorks-RegularItalic.woff2') format('woff2'),
+        url('@styles/fonts/Suisse Works/SuisseWorks-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse Works';
+    src: url('@styles/fonts/Suisse Works/SuisseWorks-Regular.woff2') format('woff2'),
+        url('@styles/fonts/Suisse Works/SuisseWorks-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

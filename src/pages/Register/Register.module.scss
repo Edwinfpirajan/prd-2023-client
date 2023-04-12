@@ -1,0 +1,92 @@
+.register {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    overflow: hidden;
+
+    padding: 4rem;
+
+    background-color: rgb($ts);
+
+    @media only screen and (max-width: 600px) {
+        padding: 0;
+    }
+
+    & > .card {
+        padding: 1rem;
+
+        border-radius: 1rem;
+
+        background-color: rgb($tc);
+
+        @include shadow;
+
+        & > form {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 1fr;
+            gap: 0rem;
+            grid-auto-flow: row;
+            grid-template-areas: ". .";
+
+            @media only screen and (max-width: 600px) {
+                display: flex;
+                flex-direction: column;
+            }
+
+            border: 1px solid rgba($tp, 0.2);
+
+            border-radius: 1rem;
+
+            & > div {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                flex-direction: column;
+
+                & > label {
+                    font-weight: bold;
+                }
+
+                & > input {
+                    background-color: rgb(230, 230, 230);
+                    width: 100%;
+
+                    border-radius: 0.5rem;
+                    padding: 1rem;
+                }
+
+                padding: 3rem;
+
+                gap: 1rem;
+
+                overflow: hidden;
+
+                & > img {
+                    padding: 0.5rem;
+
+                    border: 1px solid rgba($tp, 0.2);
+                    border-radius: 1rem;
+
+                    aspect-ratio: 3 / 2;
+                    max-height: 20rem;
+                    max-width: 100%;
+
+                    object-fit: cover;
+                }
+            }
+
+            // & > .right {
+            //     align-items: center;
+            //     justify-content: flex-start;
+
+            // }
+        }
+    }
+}

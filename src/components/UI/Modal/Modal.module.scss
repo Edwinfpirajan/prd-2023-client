@@ -1,0 +1,48 @@
+.backdrop {
+    position: fixed 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(white, 0.5);
+
+    transform: scale(1);
+
+    z-index: 17;
+}
+
+.modal {
+    position: fixed 50% 50% undefined undefined;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 100vw;
+    min-width: 2rem;
+    max-height: 100vh;
+    min-height: 2rem;
+
+    transform: translate(-50%, -50%);
+
+    padding: 2rem;
+
+    background-color: rgba(white, 1);
+
+    z-index: 18;
+
+    @include shadow-modern;
+}
+
+.close {
+    position: fixed 1rem 1rem undefined undefined;
+
+    font-size: 2rem;
+    color: rgb($tp);
+    background-color: rgb($ts);
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    z-index: 19;
+}

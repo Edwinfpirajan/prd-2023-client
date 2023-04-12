@@ -1,0 +1,51 @@
+@import "@sass/variables";
+@import "@sass/mixins";
+
+@mixin theme($color: $tp) {
+    color: $tc;
+    background: $ts;
+}
+
+.Toastify__toast-container {
+    z-index: 99999;
+}
+
+.Toastify__toast {
+    font-family: inherit;
+    @include theme($color-primary);
+
+    &.secondary {
+        @include theme($color-secondary);
+    }
+
+    &.info {
+        @include theme($color-info);
+    }
+
+    &.success {
+        @include theme($color-success);
+    }
+
+    &.warning {
+        @include theme($color-warning);
+    }
+
+    &.danger {
+        @include theme($color-danger);
+    }
+
+    &.rose {
+        @include theme($color-rose);
+    }
+}
+
+.Toastify__toast-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Toastify__toast-icon {
+    width: auto !important;
+}

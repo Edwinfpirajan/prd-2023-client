@@ -1,0 +1,21 @@
+@keyframes wobble {
+    0% {
+        width: 0%;
+    }
+
+    25% {
+        width: 75%;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    75% {
+        width: 60%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
